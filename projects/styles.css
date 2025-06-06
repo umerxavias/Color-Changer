@@ -1,0 +1,59 @@
+ .top-label {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #444;
+    }
+
+    .low {
+        text-shadow: #007bff;
+        color: #333 50%;
+        color: #444 50%;
+        font-size: large;
+
+         
+        
+    }
+    .win {
+        text-shadow: slategrey;
+        color: darkolivegreen;
+        font-style: oblique;
+        font-size: larger;
+
+    }
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+#colorName {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+}
